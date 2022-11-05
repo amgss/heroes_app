@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { AuthContext } from '../../src/auth/context/AuthContext';
-import { HeroesRoutes } from '../../src/heroes/routes/HeroesRoutes';
 import { PrivateRoute } from '../../src/router';
 
 describe('Pruebas sobre <HeoresRoutes/>', () => {

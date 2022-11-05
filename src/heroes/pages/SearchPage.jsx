@@ -54,6 +54,7 @@ export const SearchPage = () => {
                         Busca tu héroe
                     </div>
                     <div
+                        aria-label="error"
                         className="alert alert-danger animate__animated animate__fadeIn"
                         style={{ display: showError ? '' : 'none' }}
                     >
